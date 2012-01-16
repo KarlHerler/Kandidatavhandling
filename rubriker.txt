@@ -1,0 +1,9 @@
+
+Original: 
+ *  Artificiell Intelligens och Scala
+
+Försnävade:
+  
+ *  Planeringsalgoritmer i Scala
+ *  Markovprocesser i Scala
+ *  Modellering av <something> i Scala
