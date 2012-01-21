@@ -4,6 +4,6 @@ Original:
 
 Försnävade:
  
- *  Markov beslutsprocesser i Scala 
+ *  Markov-beslutsprocesser i Scala
  *  Planeringsalgoritmer i Scala
  *  Modellering av <something> i Scala
