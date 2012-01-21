@@ -3,7 +3,7 @@ Original:
  *  Artificiell Intelligens och Scala
 
 Försnävade:
-  
+ 
+ *  Markov beslutsprocesser i Scala 
  *  Planeringsalgoritmer i Scala
- *  Markovprocesser i Scala
  *  Modellering av <something> i Scala
