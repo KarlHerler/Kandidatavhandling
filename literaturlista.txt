@@ -1,5 +1,0 @@
-Odersky, Martin, Spoon, Lex, Venners, Bill, Programming in Scala, Second Edition. Artima 2010
-Luger, F. George, Stubblefield, A. William, AI Algorithms, Data structures, and Idioms in Prolog, List, and Java. Pearsons 2009
-Luger, F. George, Artificial Intelligence: Structures and strategies for complex problem solving, Sixth Edition. Pearsons 2009
-Russell, Stuart, Norvig, Peter, Artificial Intelligence: A Modern Approach, Second Edition. Pearsons 2003
-LaValle, M. Steven, Planning Algorithms. Cambridge University Press 2009

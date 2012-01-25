@@ -11,7 +11,7 @@ Karl Herler, 34067
 ##Referat
 ---
 
-Markov-beslutsprocesser är en typ av planeringsalgoritm innom artficiell intelligens som ofta används för att planera i situationer som innehåller en viss slump och osäkerhet (stochastisitet), t.ex. för att styra en robot i verkliga värden (där osäkerhet kan komma från störningar i sensorer eller handlingar som inte nödvändigtvis lyckas). Markov-beslutsprocesser har sin basis i Dolda markovmodeller och bayesisk sannolikhet. Målet med algorimen är att skapa en optimal "policy" för agenten* att agera efter för varje stadie den kan vara i. D.v.s. Att oberoende av vilket stadie agenten är i så har den en (optimal) "regel" att agera efter för att förbättra sin situation.
+Markov-beslutsprocesser är en typ av planeringsalgoritm inom artficiell intelligens som ofta används för att planera i situationer som innehåller en viss slump och osäkerhet (stochastisitet), t.ex. för att styra en robot i verkliga värden (där osäkerhet kan komma från störningar i sensorer eller handlingar som inte nödvändigtvis lyckas). Markov-beslutsprocesser har sin basis i Dolda markovmodeller och bayesisk sannolikhet. Målet med algorimen är att skapa en optimal "policy" för agenten* att agera efter för varje stadie den kan vara i. D.v.s. Att oberoende av vilket stadie agenten är i så har den en (optimal) "regel" att agera efter för att förbättra sin situation.
 
 Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2003), namnet Scala från orden "Scalable" (skalbar) och "Language" (språk). Språket i sig innehåller inslag från både funktionella och imperativa språk och är implementerat för att köras i antingen Java Virtual Machine (JVM) eller Microsoft .NET platform. Språket är mycket flexibelt och stöder många principer som är relevanta för modern AI programmering.
 
@@ -54,6 +54,18 @@ Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2
 
 <br />
 
-##2. Markov-beslutsprocesser
+##Litteraturlista
 ---
+
+[1] LaValle, M. Steven, Planning Algorithms. Cambridge University Press 2009
+
+[2] Luger, F. George, Artificial Intelligence: Structures and strategies for complex problem solving, Sixth Edition. Pearsons 2009
+
+[3] Luger, F. George, Stubblefield, A. William, AI Algorithms, Data structures, and Idioms in Prolog, List, and Java. Pearsons 2009
+
+[4] Odersky, Martin, Spoon, Lex, Venners, Bill, Programming in Scala, Second Edition. Artima 2010
+
+[5] Russell, Stuart, Norvig, Peter, Artificial Intelligence: A Modern Approach, Second Edition. Pearsons 2003
+
+[6] Scala Standard Library 2.9.1.final. [http://www.scala-lang.org/api/current/index.html](http://www.scala-lang.org/api/current/index.html). Hämtad 25.1.2012
 
