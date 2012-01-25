@@ -11,12 +11,12 @@ Karl Herler, 34067
 ##Referat
 ---
 
-Markov-beslutsprocesser är en typ av planeringsalgoritm inom artficiell intelligens som ofta används för att planera i situationer som innehåller en viss slump och osäkerhet (stochastisitet), t.ex. för att styra en robot i verkliga värden (där osäkerhet kan komma från störningar i sensorer eller handlingar som inte nödvändigtvis lyckas). Markov-beslutsprocesser har sin basis i Dolda markovmodeller och bayesisk sannolikhet. Målet med algorimen är att skapa en optimal "policy" för agenten* att agera efter för varje stadie den kan vara i. D.v.s. Att oberoende av vilket stadie agenten är i så har den en (optimal) "regel" att agera efter för att förbättra sin situation.
+Markov-beslutsprocesser är en typ av planeringsalgoritm inom artficiell intelligens som ofta används för att planera i situationer som innehåller en viss slump och osäkerhet (stokastisitet), t.ex. för att styra en robot i verkliga världen, där osäkerhet kan komma från störningar i sensorer eller handlingar som inte nödvändigtvis lyckas. Markov-beslutsprocesser har sin basis i dolda markovmodeller och bayesisk sannolikhet. Målet med algoritmen är att skapa en optimal "policy" för agenten* att agera efter för varje stadie den kan vara i. D.v.s. Att oberoende av vilket stadie agenten är i så har den en (optimal) "regel" att agera efter för att förbättra sin situation.
 
-Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2003), namnet Scala från orden "Scalable" (skalbar) och "Language" (språk). Språket i sig innehåller inslag från både funktionella och imperativa språk och är implementerat för att köras i antingen Java Virtual Machine (JVM) eller Microsoft .NET platform. Språket är mycket flexibelt och stöder många principer som är relevanta för modern AI programmering.
+Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2003). namnet Scala kommer från orden "Scalable" (skalbar) och "Language" (språk). Språket i sig innehåller inslag av både funktionella och imperativa språk och är implementerat för att köras i antingen Java Virtual Machine (JVM) eller Microsoft .NET platform. Språket är mycket flexibelt och stöder många principer som är relevanta för modern AI-programmering.
 
 
-*) Agent = artificella intelligensen samt dess "sensorer" och "aktuatorer"
+*) Agent = den artificella intelligensen samt dess "sensorer" och "aktuatorer"
 
 <br />
 
@@ -32,7 +32,7 @@ Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2
 
 	2.2. Förkunskaper
 
-	2.3. Markov-beslutsprocess algoritmen
+	2.3. Markov-beslutsprocessalgoritmen
 	
 	2.4. Varianter
 
@@ -43,11 +43,11 @@ Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2
 	3.2. Grundläggande syntax
 
 
-4.  Makrov-beslutsprocesser implementerade i Scala
+4.  Markov-beslutsprocesser implementerade i Scala
 
 	4.1. Naiv implementation
 
-	4.2. Funkionell implementation
+	4.2. Funktionell implementation
 
 	4.3. Actor-concurrency
 
