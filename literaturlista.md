@@ -9,3 +9,5 @@
 [5] Russell, Stuart, Norvig, Peter, Artificial Intelligence: A Modern Approach, Second Edition. Pearsons 2003
 
 [6] Scala Standard Library 2.9.1.final. [http://www.scala-lang.org/api/current/index.html](http://www.scala-lang.org/api/current/index.html). Hämtad 25.1.2012
+
+[7] Turing A.M., Computing Machinery and Intelligence. Mind, nr. 59, 1950. s. 433-460
