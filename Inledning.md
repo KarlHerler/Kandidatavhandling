@@ -19,11 +19,11 @@ Markov-beslutsprocesser används i områden fullt observerbar, stokastisk, dynam
 
 <br />
 
-För att implementera markov-beslutsprocesser effektivt så behövs det en krävs det en del verktyg och vissa programmeringspråk är bättre lämpade än andra för detta ändamål. Jag har valt att titta närmare på programmeringspråket Scalas lämplighet för att implementera Markov-beslutsprocesser i. Jag valde Scala efter som det till ytan verkar som ett mycket lämpligt språk för artificiell intelligens programmering, och Markov-beslutsprocesser är ett intressant exempel på modern artificiell intelligens och därmed ett passande exempel för att illustrera de kraven som sätts på modern artificiell intelligensprogrammering.
+För att implementera markov-beslutsprocesser effektivt så krävs det en del specifika hjälpmedel och vissa programmeringspråk är bättre lämpade än andra för detta ändamål. Jag har valt att undersöka programmeringspråket Scalas lämplighet genom att undersöka hur implementationer av Markov-beslutsprocesser i Scala ser ut. Jag valde Scala efter som det till ytan verkar som ett mycket lämpligt språk för artificiell intelligens programmering, och Markov-beslutsprocesser är ett intressant exempel på modern artificiell intelligens och därmed ett passande exempel för att illustrera de kraven som sätts på modern artificiell intelligensprogrammering. Scala har dessutom, så vitt jag vet inte använts till detta ändamål förr, i alla fall inte i allmän kännedom.
 
 <br />
 
-Scala är ett rätt så nytt programmeringspråk (första versionen lanserades 2003). Namnet Scala kommer från orden "Scalable" (skalbar) och "Language" (språk), med skalbar menar Odersky att språket kan användas till både små och stora projekt. Språket i sig innehåller inslag av både det funktionella och det imperativa paradigmet och är implementerat för att köras i främst Java Virtual Machine (JVM) men det finns även en implementation av Scala för Microsofts .NET platform.[4].
+Programmeringsspråket Scala är ett nytt programmeringspråk vars första version lanserades år 2003. Namnet Scala kommer från orden "Scalable" (skalbar) och "Language" (språk), med skalbar menar Odersky att språket kan användas till både små och stora projekt. Språket i sig innehåller inslag av både det funktionella och det imperativa paradigmet och är implementerat för att köras i främst Java Virtual Machine (JVM) men det finns även en implementation av Scala för Microsofts .NET platform.[4].
 
 <br />
 
