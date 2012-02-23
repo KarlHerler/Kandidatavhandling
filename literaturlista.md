@@ -10,4 +10,10 @@
 
 [6] Scala Standard Library 2.9.1.final. [http://www.scala-lang.org/api/current/index.html](http://www.scala-lang.org/api/current/index.html). Hämtad 25.1.2012
 
+
 [7] Turing A.M., Computing Machinery and Intelligence. Mind, nr. 59, 1950. s. 433-460
+
+
+#Extra literatur
+
+[8] Scalas oficiella hämsida [http://www.scala-lang.org/](http://www.scala-lang.org/). Hämtad 24.2.2012
