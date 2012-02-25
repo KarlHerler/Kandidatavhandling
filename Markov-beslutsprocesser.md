@@ -34,8 +34,31 @@ Efter som Markov-beslutsprocesser är en algoritm med sin basis i sannolikhetsl�
 Ett grundantagande i Markov-beslutsprocessen är att alla händelser i processen är *markovianska*, det vill säga att de har den så kallade *Markovegenskapen*. Markovegenskapen betyder att sannolikheten för händelsen är oberoende av tidigare händelser. Man kan även säga att Markovegenskapen betyder att miljön antas inte ha något minne och historiska händelser påverkar inte nuvarande händelse.
 
 
+###2.3. Problemformulering
+
+För att använda en Markov-beslutsprocess så behövs hela miljön som algoritmen agerar i, ett initialt stadie, ett eller flera mål, ett, flera eller inget stadie man vill undvika och en tillämpningen även en så kallad *transitionsmodell*.
+
+
+Initiala stadiet definieras ofta som: **s0**.
+
+
+Målen och stadier som man vill undvika definieras ofta av en belöningsfunktion (Reward function): **R(s)**, där **s** är ett stadie. (i vissa implementation är även belöningsfunktionen beroende på handlingar och resultat och då definieras belöningsfunktionen som **R(s, a, s')**, där **s** är ett stadie, **a** är en handling (action) och **s'** ett resulterande stadie).
+
+Transitionsmodellen definieras ofta som: **T(s, a, s')**, där **s** är ett stadie, **a** en handling (action), **s'** ett potentiellt resulterande stadie av handling a.[5]
+
+
+
 ###2.3. Markov-beslutsprocessalgoritmen
 
+Själva Markov-beslutsprocessen består av två faser skapande av en "policy" för olika stadier och sökandet efter den optimala policyn för att nå målet. 
+
+För den första fasen finns det flera olika lösningsmetoder men den vanligaste är **Value Iteration** 
+
+####2.3.1 Value Iteration
+
+Value Iteration underalgoritmen presenterades första gången av Richard E. Bellman, i samma artikel som Markov-beslutsprocessen presenterades. Algoritmen använder sig av dynamisk programmering och iterativt räknar.
+
+####2.3.2 Policy Iteration
 
 
 
@@ -59,6 +82,6 @@ POMDP, RL-MDP, CT-MDP
 
 ---
 
-[1] Richard E. Bellman, A Markovian Decisio Process. Journal of Mathematics and Mechanics. Vol. 6, No. 5, 1957, sid 679-684
+[1] Richard E. Bellman, A Markovian Decision Process. Journal of Mathematics and Mechanics. Vol. 6, No. 5, 1957, sid 679-684
 
 Behavior-Based Robotics. Intelligent Robotics and Autonomous Agents. The MIT Press. Bellman, 1957
