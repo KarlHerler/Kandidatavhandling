@@ -28,7 +28,7 @@ Eftersom vi har dessa problem så är det nödvändingt att hitta en alternativ 
 
 Efter som Markov-beslutsprocesser är en algoritm med sin basis i sannolikhetslära så behövs en viss kunskap inom det ämnet, jag kommer dock att anta att läsaren är bekant med grundläggande sannolikhetslära som oberoende och beroende handlingar, kausalt och diagnostiskt resonemang. [inkludera bayes regel?]. Förtståelse för Bayes sats antas också som förkunskap men efter som den spelar en stor roll för hela algoritmen så presenterar jag även den här:
 
-![Bayes Sats](./assets/bayes_sats.png)
+![Bayes Sats](https://github.com/KarlHerler/Kandidatavhandling/raw/0ae37fc368f915d7d7e5aaa08c9cdcf71c8a0083/assets/bayes_sats.png)
 
 
 Ett grundantagande i Markov-beslutsprocessen är att alla händelser i processen är *markovianska*, det vill säga att de har den så kallade *Markovegenskapen*. Markovegenskapen betyder att sannolikheten för händelsen är oberoende av tidigare händelser. Man kan även säga att Markovegenskapen betyder att miljön antas inte ha något minne och historiska händelser påverkar inte nuvarande händelse.
