@@ -39,7 +39,7 @@ Ett grundantagande i Markov-beslutsprocessen är att alla händelser i processen
 För att använda en Markov-beslutsprocess så behövs hela miljön som algoritmen agerar i, ett initialt stadie, ett eller flera mål, ett, flera eller inget stadie man vill undvika och en tillämpningen även en så kallad *transitionsmodell*.
 
 
-Initiala stadiet definieras ofta som: **s0**.
+Initiala stadiet definieras ofta som: **s<sub>0</sub>**.
 
 
 Målen och stadier som man vill undvika definieras ofta av en belöningsfunktion (Reward function): **R(s)**, där **s** är ett stadie. (i vissa implementation är även belöningsfunktionen beroende på handlingar och resultat och då definieras belöningsfunktionen som **R(s, a, s')**, där **s** är ett stadie, **a** är en handling (action) och **s'** ett resulterande stadie).
