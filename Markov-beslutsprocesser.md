@@ -47,7 +47,7 @@ Målen och stadier som man vill undvika definieras ofta av en belöningsfunktion
 Transitionsmodellen definieras ofta som: **T(s, a, s')**, där **s** är ett stadie, **a** en handling (action), **s'** ett potentiellt resulterande stadie av handling a.
 
 
-Resultatet av Markov-beslutsprocessen kommer att vara en "policy" som oftast skrivs som: &pi; om man definierar hela policyn och som &pi;(s) för policyn för ett specifik stadie. [5]
+Resultatet av Markov-beslutsprocessen kommer att vara en "policy" som oftast skrivs som: **&pi;** om man definierar hela policyn och som **&pi;(s)** för policyn för ett specifik stadie. [5]
 
 
 
