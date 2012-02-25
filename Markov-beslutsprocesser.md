@@ -39,30 +39,33 @@ Ett grundantagande i Markov-beslutsprocessen är att alla händelser i processen
 För att använda en Markov-beslutsprocess så behövs hela miljön som algoritmen agerar i, ett initialt stadie, ett eller flera mål, ett, flera eller inget stadie man vill undvika och en tillämpningen även en så kallad *transitionsmodell*.
 
 
-Initiala stadiet definieras ofta som: **s<sub>0</sub>**.
+Initiala stadiet definieras ofta som: **S<sub>0</sub>**.
 
 
 Målen och stadier som man vill undvika definieras ofta av en belöningsfunktion (Reward function): **R(s)**, där **s** är ett stadie. (i vissa implementation är även belöningsfunktionen beroende på handlingar och resultat och då definieras belöningsfunktionen som **R(s, a, s')**, där **s** är ett stadie, **a** är en handling (action) och **s'** ett resulterande stadie).
 
-Transitionsmodellen definieras ofta som: **T(s, a, s')**, där **s** är ett stadie, **a** en handling (action), **s'** ett potentiellt resulterande stadie av handling a.[5]
+Transitionsmodellen definieras ofta som: **T(s, a, s')**, där **s** är ett stadie, **a** en handling (action), **s'** ett potentiellt resulterande stadie av handling a.
+
+
+Resultatet av Markov-beslutsprocessen kommer att vara en "policy" som oftast skrivs som: &pi; om man definierar hela policyn och som &pi;(s) för policyn för ett specifik stadie. [5]
 
 
 
-###2.3. Markov-beslutsprocessalgoritmen
+###2.4. Markov-beslutsprocessalgoritmen
 
 Själva Markov-beslutsprocessen består av två faser skapande av en "policy" för olika stadier och sökandet efter den optimala policyn för att nå målet. 
 
 För den första fasen finns det flera olika lösningsmetoder men den vanligaste är **Value Iteration** 
 
-####2.3.1 Value Iteration
+####2.4.1 Value Iteration
 
 Value Iteration underalgoritmen presenterades första gången av Richard E. Bellman, i samma artikel som Markov-beslutsprocessen presenterades. Algoritmen använder sig av dynamisk programmering och iterativt räknar.
 
-####2.3.2 Policy Iteration
+####2.4.2 Policy Iteration
 
 
 
-###2.4. Varianter
+###2.5. Varianter
 
 POMDP, RL-MDP, CT-MDP
 
