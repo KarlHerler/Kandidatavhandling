@@ -47,19 +47,27 @@ Målen och stadier som man vill undvika definieras ofta av en belöningsfunktion
 Transitionsmodellen definieras ofta som: **T(s, a, s')**, där **s** är ett stadie, **a** en handling (action), **s'** ett potentiellt resulterande stadie av handling a.
 
 
-Resultatet av Markov-beslutsprocessen kommer att vara en "policy" som oftast skrivs som: **&pi;** om man definierar hela policyn och som **&pi;(s)** för policyn för ett specifik stadie. [5]
-
+Resultatet av Markov-beslutsprocessen kommer att vara en "policy" för beslut som är definierad för alla stadier i miljön som algoritmen körs i. Policyn oftast skrivs som en funktion **&pi;(s)**, där **s** är ett stadie. [5]
 
 
 ###2.4. Markov-beslutsprocessalgoritmen
 
-Själva Markov-beslutsprocessen består av två faser skapande av en "policy" för olika stadier och sökandet efter den optimala policyn för att nå målet. 
+Själva Markov-beslutsprocessen består av två faser skapande av en "policy" för olika stadier och skapande av en plan för att nå målet. En policy som skapas för en samling mål går inte att använda för en annan samling mål eller för en annan belöningsfunktion. Om miljön förändras eller transitionsmodellen förändras så måste även hela planen räknas om. 
 
-För den första fasen finns det flera olika lösningsmetoder men den vanligaste är **Value Iteration** 
+För skapandet av planen finns det flera olika lösningsmetoder, den vanligaste är dock **Value Iteration**.
 
 ####2.4.1 Value Iteration
 
-Value Iteration underalgoritmen presenterades första gången av Richard E. Bellman, i samma artikel som Markov-beslutsprocessen presenterades. Algoritmen använder sig av dynamisk programmering och iterativt räknar.
+Value Iteration underalgoritmen presenterades första gången av Richard E. Bellman, i samma artikel som Markov-beslutsprocessen presenterades. Algoritmen använder sig av dynamisk programmering och iterativt räknar ut ett värde för varje stadie.
+
+Value Iteration introducerar en ny funktion, nämligen: Nyttan av ett stadie **U(s)**. Nyttofunktionen kan definieras på flera olika sätt men är alltid beroende av belöningsfunktionen R(s), de två vanligaste sätten att använda belöningsfunktionen är:
+
+1.  **Additiva belönigar**
+
+2.  **Diskonterade belöningar**
+
+Av dessa alternativ så är diskonteringen vanligare efter som den ger mera flexibilitet och om man definerar lägger y=1 så får man den additiva metoden.
+
 
 ####2.4.2 Policy Iteration
 
